@@ -12,22 +12,22 @@
 }
 
 .btn2 {
-    padding: 8px 12px;
-    color: #30B868;
+    padding: 12px 16px;
+    color: #FFFFFF;
     background-color: transparent;
     font-weight: 600;
     border: none;
-    border-radius: 50%;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
 }
 
 .btn3 {
-    padding: 12px 16px;
+    padding: 8px 12px;
     color: #30B868;
     background-color: #FFFFFF;
     font-weight: 600;
     border: none;
-    border-radius:100px;
-    border: 1px solid #30B868;
+    border-radius: 100px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 }
 
 nav {
-    border: 1px solid red;
+
     margin: 0 auto;
     padding: 12px 120px;
     display: flex;
@@ -63,5 +63,42 @@ nav {
 
 }
 
-.heading-banner {}
-.heading-banner .heading-banner-btn{}
+.heading-banner {
+    background: url(/images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 670px;
+    margin-top: 0px;
+    
+
+}
+
+ .heading-banner-container {
+    max-width: 1360px;
+   padding: 120px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading-banner-structure {
+    max-width: 670px;
+    font-size: 30px;
+    color: #30B868;
+   
+}
+
+.heading-banner .heading-banner-description {
+    max-width: 700px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading-banner-button
+{
+    display: flex;
+    gap: 16px;
+}
