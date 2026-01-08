@@ -64,7 +64,7 @@ nav {
 }
 
 .heading-banner {
-    background: url(images/hero-bg.png);
+    background: url(../images/hero-bg.png);
     background-position: center;
     background-size: cover;
     min-height: 670px;
