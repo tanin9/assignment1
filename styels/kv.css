@@ -69,13 +69,13 @@ nav {
     background-size: cover;
     min-height: 670px;
     margin-top: 0px;
-    
+
 
 }
 
- .heading-banner-container {
+.heading-banner-container {
     max-width: 1360px;
-   padding: 120px ;
+    padding: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +87,7 @@ nav {
     max-width: 670px;
     font-size: 30px;
     color: #30B868;
-   
+
 }
 
 .heading-banner .heading-banner-description {
@@ -97,8 +97,24 @@ nav {
     color: #FFFFFF;
 }
 
-.heading-banner-button
-{
+.heading-banner-button {
     display: flex;
     gap: 16px;
+}
+
+.note-container {
+    
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+.note-container h1{
+    font-size: 48px;
+    color: #001931;
+    
+}
+.note-container p{
+   
+    color: #627382;
+    
 }
